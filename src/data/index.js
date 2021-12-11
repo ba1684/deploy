@@ -36,7 +36,7 @@ export const Logo = {
 
 export const NavLinksData = [
   {
-    name: "Home",
+    name: "الرئيسية",
     url: "/",
     subItems: [
       {
@@ -50,39 +50,16 @@ export const NavLinksData = [
     ]
   },
   {
-    name: "About",
+    name: "من نحن",
     url: "/about"
   },
   {
-    name: "Services",
+    name: "خدماتنا",
     url: "/services",
-    subItems: [
-      {
-        name: "Services",
-        url: "/service"
-      },
-      {
-        name: "Service Details",
-        url: "/service-details"
-      }
-    ]
   },
+
   {
-    name: "Blog",
-    url: "/blog",
-    subItems: [
-      {
-        name: "Blog Page",
-        url: "/blog"
-      },
-      {
-        name: "Blog Details",
-        url: "/blog-details"
-      }
-    ]
-  },
-  {
-    name: "Contact",
+    name: "اتصل بنا",
     url: "/contact"
   }
 ];
